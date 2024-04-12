@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+       /* html{
+            background-color: grey ;
+        }*/
+        html{
+            background-color: white ;
+        }
+        ul{
+            /*to get rid of the bullet points i used list-style none*/
+            list-style: none;
+            color: grey;
+            display: flex;
+            justify-content: center;
+            align-items: start;
+            height: 100vh;
+            /*justify-content: space-between;*/
+            gap: 10px;
+            flex-direction: row;
+            position: relative;
+           /* align-items: flex-start;
+
+            
+            flex-wrap: wrap;
+            align-content: flex-end;*/
+        }
+        ul > *{
+            position: relative;
+            left: -20px;
+            font-size: 20px;
+            width: 250px;
+            height: 30px;
+            border-radius: 15px;
+            font-weight: bold;
+            padding: 5px;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color:white;
+            
+            z-index: 10;
+        }
+        
+        a{
+            /*To remove the underlying and change blue color*/
+            text-decoration: none;
+            color: white;
+        }
+        h1{
+            
+            position: absolute;
+            top: 150px;
+            left: 300px;
+            align-items: center;
+            display: flex;
+            font-size: 9rem;
+            justify-content: center;
+            
+            color: black;
+            font-family: "Dancing Script", cursive;
+            font-optical-sizing: auto;
+            
+            
+        }
+        img
+        {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        p{
+            z-index: 100;
+        }
+       
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Father of the Turks</title>
+</head>
+<body>
+    <ul>
+        <li  >
+           <a href="./name.html">Name</a>
+        </li>
+        <li >
+            <a href="./earlylife.html">Early Life</a>
+            
+        </li>
+        <li >
+            <a href="./militarycareer.html">Military Career</a>
+            
+        </li >
+        <li>
+            <a href="./presidency.html">Presidency</a>
+            
+        </li>
+        <li >
+            <a href="./personallife.html">Personal Life</a>
+            
+        </li>
+        <li >
+            <a href="./illnessanddeath.html">Illness and Death</a>
+            
+        </li>
+        <li >
+            <a href="./legacy.html">Legacy</a>
+            
+        </li>
+    </ul>
+    
+    <h1>A Site About The Founder Of Turkey</h1>
+
+    <ul style="height: 0; position: absolute; left: 300px;">
+      <li style="background-color: white;"><a href="https://www.facebook.com/furkan.duzyol.96">
+          <img src="./photos/facebook.svg" alt="" height="50px">
+        </a></li>
+      <li style="background-color: white;"><a href="https://www.linkedin.com/in/furkan-d%C3%BCzyol-513780254/">
+          <img src="./photos/linkedin.svg" alt="" height="50px">
+        </a></li>
+      <li style="background-color: white;"><a  href="https://github.com/furkanduzyol">
+          <img src="./photos/github.svg" alt="" height="50px">
+        </a></li>
+      <li style="background-color: white;"><a href="https://wa.me/5011402370">
+          <img src="./photos/whatsapp.svg" alt="" height="50px">
+        </a></li>
+    </ul>
+    
+</body>
+</html>
